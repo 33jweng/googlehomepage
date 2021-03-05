@@ -4,6 +4,9 @@ html {
   font-size: 14px;
   font-family: Arial, sans-serif;
 }
+body {
+  margin: 10px;
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -17,14 +20,31 @@ li {
 }
 a {
   text-decoration: none;
-  padding: 5px;
+  padding: 10px 5px;
   color: rgba(0, 0, 0, 0.87);
 }
 .right-nav {
   float: right;
 }
 #footer {
+  display: flex;
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+#main {
+  text-align: center;
+  margin-top: 30px;
+}
+#login {
+  color: white;
+  background-color: #1a73e8;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin:
+}
+#menu {
+  position: relative;
+  top: -2px;
+  padding-right: 10px;
 }
