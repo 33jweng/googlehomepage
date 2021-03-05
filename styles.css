@@ -1,3 +1,30 @@
-#navbar {
-  
+html {
+  height: 100%;
+  min-height: 100%;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  margin: 0;
+  display: inline-flex;
+  padding: 5px;
+}
+a {
+  text-decoration: none;
+  padding: 5px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.right-nav {
+  float: right;
+}
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }

@@ -3,25 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Google Clone</title>
+  <title>Google Homepage</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div id="navbar">
-    <a href="#" id="about">About</a>
-    <a href="#" id="store">Store</a> 
-    <a href="#" id="gmail">Gmail</a> 
-    <a href="#" id="images">Images</a> 
-    <a href="#" id="menu"><img src="images/dots.webp"></a>
-    <a href="#" id="login">Login</a>
+  <!--Navigation-->
+  <div id="navigation">
+    <nav id="navbar">
+      <ul>
+        <li><a href="#about" id="about">About</a></li>
+        <li><a href="#store" id="store">Store</a></li> 
+        <li class="right-nav"><a href="#login" id="login">Sign In</a></li>
+        <li class="right-nav"><a href="#menu" id="menu"><img src="images/dots.png" height="20px"></a></li>
+        <li class="right-nav"><a href="#images" id="images">Images</a></li>
+        <li class="right-nav"><a href="#gmail" id="gmail">Gmail</a></li>
+      </ul
+    </nav>
   </div>
+  <!--Main-->
   <div id="main">
     <a href="#" id="logo">
       <img src="images/google-logo.png">
     </a>
-    <input type="text" id="search">
-    <button>Google Search</button><button>I'm Feeling Lucky</button>
+    <input type="text" id="search-field">
+    <button>Google Search</button>
+    <button>I'm Feeling Lucky</button>
+    <p><a href="#" id="under-search-link">Celebrating women history makers, pioneers and future leaders</a>
+    </p>
   </div>
-  <div id="footer"></div>
+  <!--Footer-->
+  <div id="footer">
+    <ul>
+      <li><a href="#" id="advertising">Advertising</a></li>
+      <li><a href="#" id="business">Business</a></li>
+      <li><a href="#" id="how-search-works">How Search works</a></li>
+      <img src="images/leaf.png"><a href="#" id="sustainability-declaration">Carbon Neutral since 2007</a>
+      <li><a href="#" id="Privacy">Privacy</a></li>
+      <li><a href="#" id="terms">Terms</a></li>
+      <li><a href="#" id="settings">Settings</a></li>
+    </ul>
+  </div>
 </body>
 </html>
