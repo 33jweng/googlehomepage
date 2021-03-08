@@ -8,24 +8,27 @@ html {
 body {
   margin: 10px;
 }
-/*Top Nav*/
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-li {
-  margin: 0;
-  display: inline-flex;
-  padding: 5px;
-}
 a {
   text-decoration: none;
   padding: 10px 5px;
   color: rgba(0, 0, 0, 0.87);
 }
+/*Top Nav*/
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.left-nav {
+  margin: 0;
+  display: inline-flex;
+  padding: 5px;
+}
 .right-nav {
+  margin: 0;
+  display: inline-flex;
+  padding: 5px;
   float: right;
 }
 #menu {
@@ -43,17 +46,17 @@ a {
 /*Main*/
 #main {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 #search-bar-container {
   display:flex;
   border: 1px solid silver;
   border-radius: 30px;
-  padding: 8px;
+  padding: 10px;
   margin: 20px auto;
   align-items: center;
   justify-content: space-evenly;
-  width: 60%;
+  width: 75%;
 }
 #searchfield {
   width: 87%;
@@ -63,13 +66,23 @@ a {
 #search, #voice {
   height: 20px;
 }
-#search-buttons {
+.search-buttons {
   border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color:  rgba(0, 0, 0, 0.8);
+  background-color: rgb(250, 250, 250);
+  margin: 15px 5px;
+}
+p {
+  margin: 25px;
 }
 /*footer*/
-#footer {
-  display: flex;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+.footer {
+  display: inline-flex;
+  list-style-type: none;
+  overflow: hidden;
+}
+.right-footer {
+  float: right;
 }
