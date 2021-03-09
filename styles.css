@@ -78,11 +78,15 @@ p {
   margin: 25px;
 }
 /*footer*/
-.footer {
-  display: inline-flex;
+footer {
+  background-color: rgb(250, 250, 250);
+  display: flex;
+}
+.left-footer {
   list-style-type: none;
-  overflow: hidden;
+  display: flex;
 }
 .right-footer {
-  float: right;
+  list-style-type: none;
+  display: flex;
 }
