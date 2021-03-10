@@ -35,6 +35,7 @@ a {
   float: right;
 }
 #menu {
+  color: grey;
   position: relative;
   top: -2px;
   padding-right: 10px;
